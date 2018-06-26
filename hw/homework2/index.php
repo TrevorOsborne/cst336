@@ -43,6 +43,9 @@ Homework 2: Array and Loops
             <br /><br />
             <br /><br />
             <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
             You're fighting against endless zombies and have finally found the mystery box.
             It costs quite a bit of cash to chance the box, but you've been severing zombie heads with your knife
             and saving up. Time to equip your team of three with the firepower you'll need

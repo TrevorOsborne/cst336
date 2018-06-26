@@ -47,21 +47,20 @@
         
         echo "<div id='output'>";
         $arsenal = array($randomValue1, $randomValue2, $randomValue3);
-        for ($p = 0; $p < count($arsenal); $p++) {
-            if ("randomValue" . $p == 7) {
+        for ($p = 1; $p <= count($arsenal); $p++) {
+            if (${"randomValue" . $p} == 7) {
                  rsort($arsenal);
-                 echo "<h2>Alien Blaster! Kindly, you trade guns \n with your pal 
-                 who has never \n experienced alien blaster carnage \n before.</h2>";
+                 echo nl2br("<h2>Alien Blaster!</h2><h4>Kindly, you trade guns\n\nwith the newb.</h4>"); 
                  $p = 3;
                  break;
             }
         }
         if (array_sum($arsenal) <= 7) {
-            echo nl2br("<h3>Not enough firepower.\n\nYour team was slaughtered by\n\nthe zombie horde.</h3>");
+            echo nl2br("<h3>\nNot enough firepower.\n\nYour team was slaughtered by\n\nthe zombie horde.</h3>");
         } else if (array_sum($arsenal) <= 15) {
-            echo nl2br("<h3>The box was unpredictable.\n\nBoth teammates are\n\ndown. You're on your own...</h3>"); 
+            echo nl2br("<h3>\nThe box was unpredictable.\n\nBoth teammates are\n\ndown. You're on your own...</h3>"); 
         } else {
-            echo nl2br("<h3>The box has been gracious. \n\n Bring on the zombies!</h3>");
+            echo nl2br("<h3>\nThe box has been gracious. \n\n Bring on the zombies!</h3>");
         }
         echo "</div>";
     }
