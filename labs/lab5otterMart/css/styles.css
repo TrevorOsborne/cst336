@@ -1,0 +1,45 @@
+body {
+        background-color: black;
+        /*background-image:url("../img/backyard3.jpeg");*/
+        color: white;
+        
+    }
+    
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0px;
+    text-align:center;
+    color: blue;
+    width:100%;
+    box-shadow: 2px 5px;
+    height:50px;
+    margin:0 auto;
+}
+
+h2 {
+      font-family: 'Roboto', sans-serif; 
+      text-align:center;
+      color: red;
+      font-size: 1.2em;
+      
+}
+
+h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2em;
+        color: white;
+}
+
+footer {
+        font-family: "Times New Roman", Georgia, Serif;
+        font-size:.8em;
+        width:600px;
+        margin:0 auto;
+        padding-top:300px;
+        color: black;
+        position:relative;
+        font-weight:bold;
+        opacity:0.9;
+}
+

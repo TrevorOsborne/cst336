@@ -135,3 +135,16 @@
 [29-Jun-2018 14:42:02 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/cst336/labs/scart/scart.php on line 8
 [29-Jun-2018 14:42:02 UTC] PHP Stack trace:
 [29-Jun-2018 14:42:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/scart.php:0
+[10-Jul-2018 14:18:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php on line 116
+[10-Jul-2018 15:13:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELCT * FROM om_product WHERE 1 AND productName LIKE '%books%' AND price >= '5' ' at line 1' in /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php:61
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php(61): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php(114): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php on line 61
+[10-Jul-2018 15:41:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELCT * FROM om_product WHERE 1 AND productName LIKE '%books%' ORDER BY productN' at line 1' in /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php:61
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php(61): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php(114): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php on line 61
