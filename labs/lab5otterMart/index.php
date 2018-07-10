@@ -84,6 +84,8 @@ function displaySearchResults() {
         <div>
             <h1> OtterMart Product Search </h1>
             
+            <br>
+            
             <form>
                 Product: <input type="text" name="product" />
                 <br />
@@ -104,14 +106,16 @@ function displaySearchResults() {
                        
                        <br><br>
                        <input type="submit" value="Search" name="searchForm" />
-                
             </form>
-            
+
             <br />
             
         </div>
-        
+       
         <hr>
         <?= displaySearchResults() ?>
+        <footer>
+            Disclaimer: Products non-refundable
+        </footer>
     </body>
 </html>
