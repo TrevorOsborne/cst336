@@ -148,3 +148,60 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php(114): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab5otterMart/index.php on line 61
+[11-Jul-2018 18:40:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/loginProcess.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/loginProcess.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/loginProcess.php on line 25
+[13-Jul-2018 13:11:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php on line 13
+[13-Jul-2018 13:11:31 UTC] PHP Stack trace:
+[13-Jul-2018 13:11:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:0
+[13-Jul-2018 13:11:31 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:33
+[13-Jul-2018 13:14:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php on line 13
+[13-Jul-2018 13:14:33 UTC] PHP Stack trace:
+[13-Jul-2018 13:14:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:0
+[13-Jul-2018 13:14:33 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:33
+[13-Jul-2018 13:14:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php on line 8
+[13-Jul-2018 13:14:38 UTC] PHP Stack trace:
+[13-Jul-2018 13:14:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php:0
+[13-Jul-2018 13:14:38 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php:55
+[13-Jul-2018 13:15:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php on line 13
+[13-Jul-2018 13:15:22 UTC] PHP Stack trace:
+[13-Jul-2018 13:15:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:0
+[13-Jul-2018 13:15:22 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:33
+[13-Jul-2018 13:15:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php on line 13
+[13-Jul-2018 13:15:54 UTC] PHP Stack trace:
+[13-Jul-2018 13:15:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:0
+[13-Jul-2018 13:15:54 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:33
+[13-Jul-2018 13:17:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php on line 8
+[13-Jul-2018 13:17:29 UTC] PHP Stack trace:
+[13-Jul-2018 13:17:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php:0
+[13-Jul-2018 13:17:29 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php:55
+[13-Jul-2018 13:22:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php on line 13
+[13-Jul-2018 13:22:26 UTC] PHP Stack trace:
+[13-Jul-2018 13:22:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:0
+[13-Jul-2018 13:22:26 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:28
+[13-Jul-2018 13:22:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php on line 13
+[13-Jul-2018 13:22:50 UTC] PHP Stack trace:
+[13-Jul-2018 13:22:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:0
+[13-Jul-2018 13:22:50 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:28
+[13-Jul-2018 13:23:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php on line 8
+[13-Jul-2018 13:23:24 UTC] PHP Stack trace:
+[13-Jul-2018 13:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php:0
+[13-Jul-2018 13:23:24 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php:55
+[13-Jul-2018 13:23:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php on line 13
+[13-Jul-2018 13:23:30 UTC] PHP Stack trace:
+[13-Jul-2018 13:23:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:0
+[13-Jul-2018 13:23:30 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:28
+[13-Jul-2018 13:26:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php on line 13
+[13-Jul-2018 13:26:20 UTC] PHP Stack trace:
+[13-Jul-2018 13:26:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:0
+[13-Jul-2018 13:26:20 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:28
+[13-Jul-2018 13:26:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php on line 8
+[13-Jul-2018 13:26:21 UTC] PHP Stack trace:
+[13-Jul-2018 13:26:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php:0
+[13-Jul-2018 13:26:21 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/addProduct.php:55
+[13-Jul-2018 13:54:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php on line 13
+[13-Jul-2018 13:54:39 UTC] PHP Stack trace:
+[13-Jul-2018 13:54:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:0
+[13-Jul-2018 13:54:39 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/admin.php:28
