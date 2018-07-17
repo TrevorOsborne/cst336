@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 function getDatabaseConnection($dbname = 'ottermart') {
     
     //cloud 9 db info
