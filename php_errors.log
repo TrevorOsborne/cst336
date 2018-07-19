@@ -1,0 +1,6 @@
+[18-Jul-2018 01:20:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'channel_islands.student' doesn't exist' in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/loginProcess.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 25
+[18-Jul-2018 01:23:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 35
