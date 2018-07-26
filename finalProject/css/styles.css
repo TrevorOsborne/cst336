@@ -1,0 +1,18 @@
+nav {  /*selects the nac container*/
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;  /*removes underline*/
+    color: white;           /*by defult, links are blue*/
+}
+
+nav:hover { 
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;  
+}
+
+header, h3, nav, footer {
+    text-align: center;
+    color: white;
+}

@@ -12,9 +12,9 @@ if(!isset( $_SESSION['adminName']))
     header("Location:login.php");
 }
 
-function displayAllAirplanes() {
+function displayAllStudents() {
     global $conn;
-    $sql="SELECT * FROM aircraft";
+    $sql="SELECT * FROM students";
     $statement = $conn->prepare($sql);
     $statement->execute();
     $records = $statement->fetchAll(PDO::FETCH_ASSOC);
@@ -27,18 +27,18 @@ function displayAllAirplanes() {
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Admin Aircraft Page </title>
+        <title> Admin Students Page </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <script>
             function confirmDelete() {
-            return confirm("Are you sure you want to delete this aircraft?");
+            return confirm("Are you sure you want to delete this student?");
             }
         </script>
     </head>
     <body>
         <header>
-            <h1> Admin Aircraft Page </h1>
+            <h1> Admin Students Page </h1>
         </header>
         
         <h3> Welcome <?=$_SESSION['adminName']?>!</h3><br />
@@ -53,6 +53,12 @@ function displayAllAirplanes() {
         </nav>
         
         <br /><br />
+        
+        <form action="addStudents.php">
+            <input type="submit" class = 'btn btn-secondary' id = "beginning" name="addStudents" value="Add Student"/>
+        </form>
+
+        <br />
 
         <form action="logout.php">
             <input type="submit" class = 'btn btn-secondary' id = "beginning" value="Logout"/>
@@ -61,30 +67,40 @@ function displayAllAirplanes() {
         <br />
         
         <?php 
-        $records=displayAllAirplanes();
+        $records=displayAllStudents();
 
         echo "<table class='table table-hover'>";
         echo "<thread>
         <tr>
+            <th scope='col'>Student ID</th>
+            <th scope='col'>First Name</th>
+            <th scope='col'>Last Name</th>
+            <th scope='col'>Instructor ID</th>
             <th scope='col'>Aircraft ID</th>
-            <th scope='col'>Type</th>
-            <th scope='col'>Color</th>
-            <th scope='col'>Aircraft Operator</th>
-            <th scope='col'>Price Per Day</th>
+            <th scope='col'>Certification Type</th>
+            <th scope='col'>Address</th>
+            <th scope='col'>Phone Number</th>
+            <th scope='col'>Password</th>
+            <th scope='col'>Update</th>
             <th scope='col'>Remove</th>
         </tr>
        </thread>";
        echo"<tbody>";
        foreach($records as $record) {
            echo "<tr>";
+           echo "<td>" . $record['studentid'] . "</td>";
+           echo "<td>" . $record['firstname'] . "</td>";
+           echo "<td>" . $record['lastname'] . "</td>";
+           echo "<td>" . $record['instructorid'] . "</td>";
            echo "<td>" . $record['aircraft_id'] . "</td>";
-           echo "<td>" . $record['aircraft_type'] . "</td>";
-           echo "<td>" . $record['color'] . "</td>";
-           echo "<td>" . $record['aircraft_operator'] . "</td>";
-           echo "<td>$" . $record['price_per_day'] . "</td>";
-       
-           echo "<form action='deleteAircraft.php' onsubmit='return confirmDelete()'>";
-           echo"<input type='hidden' name='aircraft_id' value= " . $record['aircraft_id'] . " />";
+           echo "<td>" . $record['cert_type'] . "</td>";
+           echo "<td>" . $record['address'] . "</td>";
+           echo "<td>" . $record['phone_number'] . "</td>";
+           echo "<td>" . $record['password'] . "</td>";
+           echo "<td><a class='btn btn-primary' href='updateStudents.php?studentid=" . $record['studentid'] . "'>Update</a></td>";
+           
+           echo "<form action='deleteStudents.php' onsubmit='return confirmDelete()'>";
+           echo"<input type='hidden' name='studentid' value= " . $record['studentid'] . " />";
            echo "<td><input type='submit' class = 'btn btn-danger' value='Remove'></td>";
        }
        echo "</tbody>";

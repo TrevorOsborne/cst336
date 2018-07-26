@@ -19,7 +19,7 @@
             Last Name: <input type="text" name="lastname"/> <br />
             Password: <input type="password" name="password"/> <br />
             
-            <input type="submit" class = 'btn btn-primary' name="submitForm" value="Login!" />
+            <input type="submit" class = 'btn btn-primary' name="submitForm" value="Login" />
             <br /><br />
             <?php
                 if($_SESSION['incorrect']) {

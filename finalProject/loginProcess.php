@@ -14,8 +14,8 @@ $password = sha1($_POST['password']);
 // following sql prevents sql injection by avoiding using single quotes
 $sql = "SELECT * 
         FROM students
-        WHERE lastname = '$lastname'
-        AND   password = '$password'";
+        WHERE lastname = :lastname
+        AND   password = :password";
         
 $np = array();
 $np[":lastname"] = $lastname;

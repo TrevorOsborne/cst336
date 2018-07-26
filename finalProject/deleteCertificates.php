@@ -12,11 +12,11 @@ if(!isset( $_SESSION['adminName']))
     header("Location:login.php");
 }
 
-$sql = "DELETE FROM aircraft WHERE aircraft_id = " . $_GET['aircraft_id'];
+$sql = "DELETE FROM aircraft WHERE cert_type = " . $_GET['cert_type'];
 $statement = $conn->prepare($sql);
 $statement->execute();
 
-header("Location: aircraftSubAdmin.php");
+header("Location: certificatesSubAdmin.php");
 
 
 ?>
