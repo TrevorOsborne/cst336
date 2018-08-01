@@ -17,7 +17,7 @@ $(document).ready(function(){
         var answer4 = $("input[name='question4']").val().trim();
         
         //console.log(answer1);
-        //onsole.log(answer2);
+        //console.log(answer2);
         
         //Checks if answers are correct
         // Question 1
@@ -39,13 +39,13 @@ $(document).ready(function(){
         $("#question2-feedback").append("The answer is <strong>Monte Rey</strong>" );
         
         // Question 3
-        if(answer1 === "gold") {
-            correctAnswer($("#question1-feedback"));
+        if(answer3 === "gold") {
+            correctAnswer($("#question3-feedback"));
         } else {
-            incorrectAnswer($("#question1-feedback"));
+            incorrectAnswer($("#question3-feedback"));
         }
         
-        $("#question1-feedback").append("The answer is <strong>gold</strong>" );
+        $("#question3-feedback").append("The answer is <strong>gold</strong>" );
         
         // Question 4
         if(answer4 === "otter") {
