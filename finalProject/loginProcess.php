@@ -27,16 +27,16 @@ $record = $stmt->fetch(PDO::FETCH_ASSOC); // expecting one single record
 
 if (empty($record)) {
     $_SESSION['incorrect'] = true;
-    header("Location:login.php");
+    header("Location:index.php");
 } else if ($record['lastname'] == 'Admin') {
     $_SESSION['incorrect'] = false;
     $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
-    header("Location:mainAdmin.php"); 
+    header("Location:admin/mainAdmin.php"); 
 } else {
     //echo $record['firstName'] . " " . $record['lastName'];
     $_SESSION['incorrect'] = false;
     $_SESSION['studentName'] = $record['firstName'] . " " . $record['lastName'];
-    header("Location:productServices.php");
+    header("Location:/finalProject/customer/productServices.php");
 }
 
 ?>

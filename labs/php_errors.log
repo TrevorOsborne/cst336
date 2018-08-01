@@ -247,3 +247,48 @@ Stack trace:
 [17-Jul-2018 13:15:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/updateProduct.php on line 63
 [17-Jul-2018 13:15:53 UTC] PHP Stack trace:
 [17-Jul-2018 13:15:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6otterMartAdmin/updateProduct.php:0
+[31-Jul-2018 22:40:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php on line 16
+[31-Jul-2018 22:45:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php on line 16
+[31-Jul-2018 23:02:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php on line 16
+[31-Jul-2018 23:02:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php on line 16
+[31-Jul-2018 23:05:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php on line 16
+[31-Jul-2018 23:21:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php on line 16
+[31-Jul-2018 23:27:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php on line 16
+[31-Jul-2018 23:29:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php on line 16
+[31-Jul-2018 23:32:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8csumbQuiz/submitScores.php on line 16

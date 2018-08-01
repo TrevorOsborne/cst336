@@ -1,18 +1,20 @@
-nav {  /*selects the nac container*/
-    padding: 15px;
-    padding-bottom: 4px;
-    font-size: 1.8em;
-    text-decoration: none;  /*removes underline*/
-    color: white;           /*by defult, links are blue*/
-}
-
-nav:hover { 
-    border-bottom: 2px orange solid;
-    font-size: 2em;
-    transition: .9s;  
-}
-
-header, h3, nav, footer {
+h1 {
+    color:white;
     text-align: center;
-    color: white;
+    border-bottom: 2px orange solid;
+} 
+
+me {
+    color:white;
+    text-align: center;
+}
+
+body {
+    /*background-image:url("/finalProject/img/plane.jpg");*/
+    background-color:gold;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    border-bottom: 5px orange solid;
 }
