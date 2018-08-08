@@ -108,13 +108,13 @@ $conn = getDatabaseConnection("channel_islands");
                     echo "<td>" . '$' .$record['price_per_day'] . "</td>";
                     
                     echo "<form method='post'>";
-                    echo "<input type='hidden' name='aircraft_id' value='$aircraft_id'>";
-                    echo "<input type='hidden' name='aircraft_type' value='$aircraft_type'>";
-                    echo "<input type='hidden' name='color' value='$color'>";
-                    echo "<input type='hidden' name='aircraft_operator' value='$aircraft_operator'>";
-                    echo "<input type='hidden' name='price_per_day' value='$price_per_day'>";
+                    echo "<input type='hidden' name='aircraft_id' value='".$record['aircraft_id']."'>";
+                    echo "<input type='hidden' name='aircraft_type' value='".$record['aircraft_type']."'>";
+                    echo "<input type='hidden' name='color' value='".$record['color']."'>";
+                    echo "<input type='hidden' name='aircraft_operator' value='".$record['aircraft_operator']."'>";
+                    echo "<input type='hidden' name='price_per_day' value='".$record['price_per_day']."'>";
                 
-                    if ($_POST['aircraft_id'] == $aircraft_id) {
+                    if (isset($_POST['aircraft_id']) && $_POST['aircraft_id'] == $record['aircraft_id']) {
                         echo "<td><button class='btn btn-success'>Added To Cart</button></td>";
                     } 
                     else {
@@ -167,11 +167,11 @@ $conn = getDatabaseConnection("channel_islands");
                     echo "<td>" . $record['price'] . "</td>";
                     
                     echo "<form method='post'>";
-                    echo "<input type='hidden' name='aircraft_id' value='$cert_type'>";
-                    echo "<input type='hidden' name='aircraft_type' value='$required_flight_hours'>";
-                    echo "<input type='hidden' name='color' value='$price'>";
+                    echo "<input type='hidden' name='cert_type' value='".$record['cert_type']."'>";
+                    echo "<input type='hidden' name='required_flight_hours' value='".$record['required_flight_hours']."'>";
+                    echo "<input type='hidden' name='price' value='".$record['price']."'>";
                 
-                    if ($_POST['price'] == $price) {
+                     if (isset($_POST['cert_type']) && $_POST['cert_type'] == $record['cert_type']) {
                         echo "<td><button class='btn btn-success'>Added To Cart</button></td>";
                     } 
                     else {
@@ -192,7 +192,7 @@ $conn = getDatabaseConnection("channel_islands");
 <html>
     <head>
         <title> Home Page</title>
-        <link rel="stylesheet" href="/finalProject/customer/css/styles.css" type="text/css" />
+        <link rel="stylesheet" href="/cst336/finalProject/customer/css/styles.css" type="text/css" />
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
     </head>

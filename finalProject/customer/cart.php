@@ -3,7 +3,7 @@
     
     if(!isset( $_SESSION['studentName'])) 
     {
-        //redirects back to login.php if $_SESSION doesn't contain admin credentials
+        //redirects back to login.php if $_SESSION doesn't contain valid credentials
         header("Location:/finalProject/index.php");
     }
     

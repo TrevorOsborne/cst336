@@ -892,3 +892,21 @@ Stack trace:
 #0 /home/ubuntu/workspace/finalProject/admin/updateStudents.php(57): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/finalProject/admin/updateStudents.php on line 57
+[07-Aug-2018 15:43:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'feedback' in 'field list'' in /home/ubuntu/workspace/finalProject/customer/submitSurvey.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/customer/submitSurvey.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/customer/submitSurvey.php on line 19
+[08-Aug-2018 01:59:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'feedback' in 'field list'' in /home/ubuntu/workspace/finalProject/customer/submitSurvey.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/customer/submitSurvey.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/finalProject/customer/submitSurvey.php on line 19
+[08-Aug-2018 04:04:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND aircraft_type LIKE '%c182%'' at line 1' in /home/ubuntu/workspace/finalProject/customer/mainpage.php:89
+Stack trace:
+#0 /home/ubuntu/workspace/finalProject/customer/mainpage.php(89): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/finalProject/customer/mainpage.php(251): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/finalProject/customer/mainpage.php on line 89
+[08-Aug-2018 04:10:22 UTC] PHP Parse error:  syntax error, unexpected '"'>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/finalProject/customer/mainpage.php on line 170
+[08-Aug-2018 04:10:47 UTC] PHP Parse error:  syntax error, unexpected '"'>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/finalProject/customer/mainpage.php on line 170

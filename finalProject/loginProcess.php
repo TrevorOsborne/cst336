@@ -36,7 +36,7 @@ if (empty($record)) {
     //echo $record['firstName'] . " " . $record['lastName'];
     $_SESSION['incorrect'] = false;
     $_SESSION['studentName'] = $record['firstname'] . " " . $record['lastname'];
-    header("Location:customer/mainpage.php");
+    header("Location:/cst336/finalProject/customer/mainpage.php");
 }
 
 ?>
