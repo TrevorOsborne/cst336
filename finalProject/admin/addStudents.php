@@ -40,7 +40,7 @@ if (isset($_GET['submitStudents'])) {
     $statement = $conn->prepare($sql);
     $statement->execute($namedParameters);
     
-    echo "<h3>Student added</h3>";
+    echo "<h3>Student has been added!</h3>";
 }
 
 ?>
@@ -50,8 +50,18 @@ if (isset($_GET['submitStudents'])) {
     <head>
         <title> Add Students</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+        <br /><br />
+        
+        <nav>
+            <hr width="50%" />
+            <a href="studentsSubAdmin.php">Students</a>
+        </nav>
+         
+        <br /><br />
+        
         <form>
            <br />
             <strong>Student ID</strong> <input type="text" class="form-control"name="studentid"><br>

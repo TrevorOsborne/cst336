@@ -38,7 +38,8 @@ if (isset($_GET['updateStudents'])) {
             cert_type = :cert_type,
             address = :address,
             phone_number = :phone_number,
-            password = :password
+            password = :password,
+            feedback = :feedback
         WHERE studentid = :studentid";
     $np = array();
     $np[':firstname'] = $_GET['firstname'];
@@ -49,11 +50,12 @@ if (isset($_GET['updateStudents'])) {
     $np[':address'] = $_GET['address'];
     $np[':phone_number'] = $_GET['phone_number'];
     $np[':password'] = $_GET['password'];
+    $np[':feedback'] = $_GET['feedback'];
     $np[':studentid'] = $_GET['studentid'];
     
     $statement = $conn->prepare($sql);
     $statement ->execute($np);
-    echo "Student has been updated!";
+    echo "<h3>Student has been updated!</h3>";
 }
 
 ?>
@@ -63,8 +65,18 @@ if (isset($_GET['updateStudents'])) {
     <head>
         <title> Update Student</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+         <br /><br />
+        
+        <nav>
+            <hr width="50%" />
+            <a href="studentsSubAdmin.php">Students</a>
+        </nav>
+         
+        <br /><br />
+        
          <form> <!--Prefilled form values-->
             <input type="hidden" name="studentid" value= "<?=$students['studentid']?>"/>
             <br />
@@ -76,6 +88,7 @@ if (isset($_GET['updateStudents'])) {
             <strong>Address</strong> <input type="text" class="form-control" value = "<?=$students['address']?>" name="address"><br>
             <strong>Phone Number</strong> <input type="text" class="form-control" value = "<?=$students['phone_number']?>" name="phone_number"><br>
             <strong>Password</strong> <input type="text" class="form-control" value = "<?=$students['password']?>" name="password"><br>
+            <strong>Feedback</strong> <input type="text" class="form-control" value = "<?=$students['feedback']?>" name="feedback"><br>
             <input type="submit" class='btn btn-primary' name="updateStudents" value="Update Student">
         </form>
     </body>

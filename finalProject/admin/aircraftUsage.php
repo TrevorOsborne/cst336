@@ -45,16 +45,12 @@ function aircraftUsage() {
         
         <nav>
             <hr width="50%" />
-            <a href="aircraftSubAdmin.php">Aircraft</a>
-            <a href="instructorsSubAdmin.php">Instructors</a>
-            <a href="mainAdmin.php"><strong>Main</strong></a>
-            <a href="studentsSubAdmin.php">Students</a>
-            <a href="certificatesSubAdmin.php">Certificates</a>
+            <a href="reports.php">Reports</a>
         </nav>
         
         <br /><br />
 
-        <form action="/finalProject/logout.php">
+        <form action="/cst336/finalProject/logout.php">
             <input type="submit" class = 'btn btn-secondary' id = "beginning" value="Logout"/>
         </form>
         
@@ -83,9 +79,6 @@ function aircraftUsage() {
        <footer>
             <hr>
             CST 336. 2018&copy;  Zephyr Consultants <br />
-            <strong>Disclaimer:</strong> The information in this webpage is 
-            fictitous. <br />
-                It is used for acedimc purposes only.
         </footer>
     </body>
 </html>

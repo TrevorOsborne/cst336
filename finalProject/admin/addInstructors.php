@@ -38,7 +38,7 @@ if (isset($_GET['submitInstructors'])) {
     $statement = $conn->prepare($sql);
     $statement->execute($namedParameters);
     
-    echo "<h3>Instructor added</h3>";
+    echo "<h3>Instructor has been added!</h3>";
 }
 
 ?>
@@ -48,8 +48,18 @@ if (isset($_GET['submitInstructors'])) {
     <head>
         <title> Add Instructors</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+        <br /><br />
+        
+        <nav>
+            <hr width="50%" />
+            <a href="instructorsSubAdmin.php">Instructors</a>
+        </nav>
+         
+        <br /><br />
+        
         <form>
            <br />
             <strong>Instructor ID</strong> <input type="text" class="form-control"name="instructorid"><br>
@@ -60,7 +70,7 @@ if (isset($_GET['submitInstructors'])) {
             <strong>Phone Number</strong> <input type="text" class="form-control"name="phone_number"><br>
             <strong>Locker Number</strong> <input type="text" class="form-control"name="locker_number"><br>
             <strong>Years of Employment</strong> <input type="text" class="form-control"name="years_of_employment"><br>
-            <input type="submit" name="submitInstructors" class='btn btn-primary' value="Submit Instructor">
+            <input type="submit" name="submitInstructors" class='btn btn-primary' value="Add Instructor">
         </form>
     </body>
 </html>

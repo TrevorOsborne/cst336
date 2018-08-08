@@ -60,7 +60,7 @@ function displayAllStudents() {
 
         <br />
 
-        <form action="/finalProject/logout.php">
+        <form action="/cst336/finalProject/logout.php">
             <input type="submit" class = 'btn btn-secondary' id = "beginning" value="Logout"/>
         </form>
         
@@ -81,6 +81,7 @@ function displayAllStudents() {
             <th scope='col'>Address</th>
             <th scope='col'>Phone Number</th>
             <th scope='col'>Password</th>
+            <th scope='col'>Feedback</th>
             <th scope='col'>Update</th>
             <th scope='col'>Remove</th>
         </tr>
@@ -97,6 +98,7 @@ function displayAllStudents() {
            echo "<td>" . $record['address'] . "</td>";
            echo "<td>" . $record['phone_number'] . "</td>";
            echo "<td>" . $record['password'] . "</td>";
+           echo "<td>" . $record['feedback'] . "</td>";
            echo "<td><a class='btn btn-primary' href='updateStudents.php?studentid=" . $record['studentid'] . "'>Update</a></td>";
            
            echo "<form action='deleteStudents.php' onsubmit='return confirmDelete()'>";
@@ -110,9 +112,6 @@ function displayAllStudents() {
        <footer>
             <hr>
             CST 336. 2018&copy;  Zephyr Consultants <br />
-            <strong>Disclaimer:</strong> The information in this webpage is 
-            fictitous. <br />
-                It is used for acedimc purposes only.
         </footer>
     </body>
 </html>

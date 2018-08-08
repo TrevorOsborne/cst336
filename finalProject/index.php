@@ -17,10 +17,52 @@
         <br /><br />
         
         <figure id="me">
-                <img src="/cst336/finalProject/img/plane.jpg" alt="Picture of CIA CESSNA" />
+                <img src="img/plane.jpg" alt="Picture of CIA CESSNA" />
         </figure>
             
         <br /><br />
+        
+        <!--<form>
+            Lastname: <input type="text" id="lastname"/>
+            <span style="color:red" id="lastnameValidation"></span> <br />
+            Password: <input type="password" id="password"/>
+            <span style="color:red" id="passwordValidation"></span> <br />     
+        </form>
+        
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script>
+            $("#lastname").change(function() {
+                aler($(this).val());//shows username entered for testing purposes
+                $.ajax({
+                        type: "post",
+                        url: "loginProcess.php",
+                        data: { "lastname": $(this).val()},
+                        success: function(data,status) {
+                            alert(data);//displaying data recieved, for testing purposes
+                        }
+                });
+            });
+            $("#password").change(function() {
+                aler($(this).val());//shows password entered for testing purposes
+                $.ajax({
+                        type: "post",
+                        url: "loginProcess.php",
+                        data: { "password": $(this).val()},
+                        success: function(data,status) {
+                            alert(data);//displaying data recieved, for testing purposes
+                        }
+                });
+            });
+            success: function(data,status) {
+                if (data=="Available") {
+                    $("#lastnameValidation").html("Available!");
+                    $("#lastnameValidation").css("color","green");
+                } else {
+                    $("#lastnameValidation").html("Lastname already taken!");
+                    $("#lastnameValidation").css("color","red");
+                }
+            }
+        </script>-->
         
         <form method="POST" action ="loginProcess.php">
             Last Name: <input type="text" name="lastname"/> <br />
@@ -35,5 +77,6 @@
                 }
             ?>
         </form>
+    
     </body>
 </html>

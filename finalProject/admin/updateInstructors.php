@@ -51,7 +51,7 @@ if (isset($_GET['updateInstructors'])) {
     
     $statement = $conn->prepare($sql);
     $statement ->execute($np);
-    echo "Instructor has been updated!";
+    echo "<h3>Instructor has been updated!</h3>";
 }
 
 ?>
@@ -61,10 +61,20 @@ if (isset($_GET['updateInstructors'])) {
     <head>
         <title> Instructor Student</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+          <br /><br />
+        
+        <nav>
+            <hr width="50%" />
+            <a href="instructorsSubAdmin.php">Instructors</a>
+        </nav>
+         
+        <br /><br />
+        
          <form> <!--Prefilled form values-->
-            <input type="hidden" name="instuctorid" value= "<?=$instructors['instructorid']?>"/>
+            <input type="hidden" name="instructorid" value= "<?=$instructors['instructorid']?>"/>
             <br />
             <strong>First Name</strong> <input type="text" class="form-control" value = "<?=$instructors['firstname']?>" name="firstname"><br>
             <strong>Last Name</strong> <input type="text" class="form-control" value = "<?=$instructors['lastname']?>" name="lastname"><br>

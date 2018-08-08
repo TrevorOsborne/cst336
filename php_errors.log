@@ -4,3 +4,191 @@ Stack trace:
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 25
 [18-Jul-2018 01:23:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 35
+[04-Aug-2018 15:38:16 UTC] PHP Fatal error:  Call to undefined function diplsayHero() in /home/ubuntu/workspace/cst336/final/index.php on line 44
+[04-Aug-2018 15:38:16 UTC] PHP Stack trace:
+[04-Aug-2018 15:38:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 16:23:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:66
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(66): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(125): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 66
+[04-Aug-2018 16:23:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:66
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(66): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(125): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 66
+[04-Aug-2018 16:25:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:69
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(69): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(128): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 69
+[04-Aug-2018 16:30:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'i.firstname' in 'field list'' in /home/ubuntu/workspace/cst336/final/index.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final/index.php(113): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 44
+[04-Aug-2018 16:30:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'i.firstname' in 'field list'' in /home/ubuntu/workspace/cst336/final/index.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final/index.php(113): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 44
+[04-Aug-2018 16:31:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:69
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(69): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(128): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 69
+[04-Aug-2018 16:31:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:69
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(69): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(128): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 69
+[04-Aug-2018 16:32:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:69
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(69): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(128): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 69
+[04-Aug-2018 16:32:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:69
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(69): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(128): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 69
+[04-Aug-2018 16:32:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:69
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(69): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(128): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 69
+[04-Aug-2018 16:32:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:69
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(69): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(128): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 69
+[04-Aug-2018 16:35:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336/final/index.php on line 65
+[04-Aug-2018 16:35:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(130): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 71
+[04-Aug-2018 16:35:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(130): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 71
+[04-Aug-2018 16:36:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(130): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 71
+[04-Aug-2018 16:36:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(130): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 71
+[04-Aug-2018 16:36:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:71
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(71): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(130): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 71
+[04-Aug-2018 17:06:05 UTC] PHP Fatal error:  Cannot redeclare displayHero() (previously declared in /home/ubuntu/workspace/cst336/final/index.php:12) in /home/ubuntu/workspace/cst336/final/quiz2.php on line 8
+[04-Aug-2018 17:06:05 UTC] PHP Stack trace:
+[04-Aug-2018 17:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:06:05 UTC] PHP   2. displayQuiz() /home/ubuntu/workspace/cst336/final/index.php:134
+[04-Aug-2018 17:06:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(75): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(126): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 75
+[04-Aug-2018 17:06:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(75): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(126): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 75
+[04-Aug-2018 17:06:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(75): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(126): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 75
+[04-Aug-2018 17:07:29 UTC] PHP Fatal error:  Call to undefined function displayHero() in /home/ubuntu/workspace/cst336/final/index.php on line 33
+[04-Aug-2018 17:07:29 UTC] PHP Stack trace:
+[04-Aug-2018 17:07:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:07:52 UTC] PHP Fatal error:  Call to undefined function displayHero() in /home/ubuntu/workspace/cst336/final/index.php on line 33
+[04-Aug-2018 17:07:52 UTC] PHP Stack trace:
+[04-Aug-2018 17:07:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:08:21 UTC] PHP Fatal error:  Call to undefined function displayHero() in /home/ubuntu/workspace/cst336/final/index.php on line 33
+[04-Aug-2018 17:08:21 UTC] PHP Stack trace:
+[04-Aug-2018 17:08:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:08:24 UTC] PHP Fatal error:  Call to undefined function displayHero() in /home/ubuntu/workspace/cst336/final/index.php on line 33
+[04-Aug-2018 17:08:24 UTC] PHP Stack trace:
+[04-Aug-2018 17:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:08:34 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final/dbConnection.php:5) in /home/ubuntu/workspace/cst336/final/dbConnection.php on line 5
+[04-Aug-2018 17:08:34 UTC] PHP Stack trace:
+[04-Aug-2018 17:08:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:08:34 UTC] PHP   2. displayQuiz() /home/ubuntu/workspace/cst336/final/index.php:134
+[04-Aug-2018 17:08:34 UTC] PHP   3. include() /home/ubuntu/workspace/cst336/final/index.php:9
+[04-Aug-2018 17:09:38 UTC] PHP Fatal error:  Call to undefined function displayHero() in /home/ubuntu/workspace/cst336/final/index.php on line 34
+[04-Aug-2018 17:09:38 UTC] PHP Stack trace:
+[04-Aug-2018 17:09:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:10:31 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final/dbConnection.php:5) in /home/ubuntu/workspace/cst336/final/dbConnection.php on line 5
+[04-Aug-2018 17:10:31 UTC] PHP Stack trace:
+[04-Aug-2018 17:10:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:10:31 UTC] PHP   2. displayQuiz() /home/ubuntu/workspace/cst336/final/index.php:134
+[04-Aug-2018 17:10:31 UTC] PHP   3. include() /home/ubuntu/workspace/cst336/final/index.php:9
+[04-Aug-2018 17:10:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/final/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/index.php(75): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/index.php(126): checkAnswer()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/index.php on line 75
+[04-Aug-2018 17:11:52 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final/dbConnection.php:5) in /home/ubuntu/workspace/cst336/final/dbConnection.php on line 5
+[04-Aug-2018 17:11:52 UTC] PHP Stack trace:
+[04-Aug-2018 17:11:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:11:52 UTC] PHP   2. displayQuiz() /home/ubuntu/workspace/cst336/final/index.php:117
+[04-Aug-2018 17:11:52 UTC] PHP   3. include() /home/ubuntu/workspace/cst336/final/index.php:9
+[04-Aug-2018 17:12:24 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final/dbConnection.php:5) in /home/ubuntu/workspace/cst336/final/dbConnection.php on line 5
+[04-Aug-2018 17:12:24 UTC] PHP Stack trace:
+[04-Aug-2018 17:12:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:12:24 UTC] PHP   2. displayQuiz() /home/ubuntu/workspace/cst336/final/index.php:117
+[04-Aug-2018 17:12:24 UTC] PHP   3. include() /home/ubuntu/workspace/cst336/final/index.php:9
+[04-Aug-2018 17:12:30 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final/dbConnection.php:5) in /home/ubuntu/workspace/cst336/final/dbConnection.php on line 5
+[04-Aug-2018 17:12:30 UTC] PHP Stack trace:
+[04-Aug-2018 17:12:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:12:30 UTC] PHP   2. displayQuiz() /home/ubuntu/workspace/cst336/final/index.php:117
+[04-Aug-2018 17:12:30 UTC] PHP   3. include() /home/ubuntu/workspace/cst336/final/index.php:9
+[04-Aug-2018 17:12:32 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final/dbConnection.php:5) in /home/ubuntu/workspace/cst336/final/dbConnection.php on line 5
+[04-Aug-2018 17:12:32 UTC] PHP Stack trace:
+[04-Aug-2018 17:12:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:12:32 UTC] PHP   2. displayQuiz() /home/ubuntu/workspace/cst336/final/index.php:117
+[04-Aug-2018 17:12:32 UTC] PHP   3. include() /home/ubuntu/workspace/cst336/final/index.php:9
+[04-Aug-2018 17:12:35 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final/dbConnection.php:5) in /home/ubuntu/workspace/cst336/final/dbConnection.php on line 5
+[04-Aug-2018 17:12:35 UTC] PHP Stack trace:
+[04-Aug-2018 17:12:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:12:35 UTC] PHP   2. displayQuiz() /home/ubuntu/workspace/cst336/final/index.php:117
+[04-Aug-2018 17:12:35 UTC] PHP   3. include() /home/ubuntu/workspace/cst336/final/index.php:9
+[04-Aug-2018 17:15:36 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final/dbConnection.php:5) in /home/ubuntu/workspace/cst336/final/dbConnection.php on line 5
+[04-Aug-2018 17:15:36 UTC] PHP Stack trace:
+[04-Aug-2018 17:15:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:15:36 UTC] PHP   2. displayQuiz() /home/ubuntu/workspace/cst336/final/index.php:37
+[04-Aug-2018 17:15:36 UTC] PHP   3. include() /home/ubuntu/workspace/cst336/final/index.php:9
+[04-Aug-2018 17:16:19 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/final/dbConnection.php:5) in /home/ubuntu/workspace/cst336/final/dbConnection.php on line 5
+[04-Aug-2018 17:16:19 UTC] PHP Stack trace:
+[04-Aug-2018 17:16:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[04-Aug-2018 17:16:19 UTC] PHP   2. displayQuiz() /home/ubuntu/workspace/cst336/final/index.php:37
+[04-Aug-2018 17:16:19 UTC] PHP   3. include() /home/ubuntu/workspace/cst336/final/index.php:9

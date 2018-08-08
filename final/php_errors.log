@@ -1,6 +1,76 @@
-[28-Jul-2018 18:23:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'practice'' in /home/ubuntu/workspace/cst336/final/practice/dbConnection.php:24
+[04-Aug-2018 18:37:17 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 4
+[04-Aug-2018 18:37:17 UTC] PHP Stack trace:
+[04-Aug-2018 18:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/Program2/index.php:0
+[04-Aug-2018 18:37:17 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 4
+[04-Aug-2018 18:37:17 UTC] PHP Stack trace:
+[04-Aug-2018 18:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/Program2/index.php:0
+[04-Aug-2018 18:37:17 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 6
+[04-Aug-2018 18:37:17 UTC] PHP Stack trace:
+[04-Aug-2018 18:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/Program2/index.php:0
+[04-Aug-2018 18:37:49 UTC] PHP Fatal error:  Call to undefined function displayHero() in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 61
+[04-Aug-2018 18:37:49 UTC] PHP Stack trace:
+[04-Aug-2018 18:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/Program2/index.php:0
+[04-Aug-2018 18:38:44 UTC] PHP Fatal error:  Call to undefined function displayHero() in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 61
+[04-Aug-2018 18:38:44 UTC] PHP Stack trace:
+[04-Aug-2018 18:38:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/Program2/index.php:0
+[04-Aug-2018 18:52:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.final' doesn't exist' in /home/ubuntu/workspace/cst336/final/Program2/index.php:56
 Stack trace:
-#0 /home/ubuntu/workspace/cst336/final/practice/dbConnection.php(24): PDO->__construct('mysql:host=loca...', 'root', '')
-#1 /home/ubuntu/workspace/cst336/final/practice/program1.php(7): getDatabaseConnection('practice')
+#0 /home/ubuntu/workspace/cst336/final/Program2/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/Program2/index.php(109): displaySearchResults()
 #2 {main}
-  thrown in /home/ubuntu/workspace/cst336/final/practice/dbConnection.php on line 24
+  thrown in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 56
+[04-Aug-2018 18:54:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.final' doesn't exist' in /home/ubuntu/workspace/cst336/final/Program2/index.php:54
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/Program2/index.php(54): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/Program2/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 54
+[04-Aug-2018 18:55:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.final' doesn't exist' in /home/ubuntu/workspace/cst336/final/Program2/index.php:54
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/Program2/index.php(54): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/Program2/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 54
+[04-Aug-2018 18:56:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.final' doesn't exist' in /home/ubuntu/workspace/cst336/final/Program2/index.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/Program2/index.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/Program2/index.php(94): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 44
+[04-Aug-2018 18:57:33 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 43
+[04-Aug-2018 19:02:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.final' doesn't exist' in /home/ubuntu/workspace/cst336/final/Program2/index.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/Program2/index.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/Program2/index.php(94): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 44
+[05-Aug-2018 00:46:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.final' doesn't exist' in /home/ubuntu/workspace/cst336/final/Program2/index.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/Program2/index.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/Program2/index.php(94): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 44
+[05-Aug-2018 00:47:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.final' doesn't exist' in /home/ubuntu/workspace/cst336/final/Program2/index.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/Program2/index.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/Program2/index.php(94): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 44
+[05-Aug-2018 00:47:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.final' doesn't exist' in /home/ubuntu/workspace/cst336/final/Program2/index.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/Program2/index.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/Program2/index.php(94): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 44
+[05-Aug-2018 00:47:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.final' doesn't exist' in /home/ubuntu/workspace/cst336/final/Program2/index.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/Program2/index.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/Program2/index.php(94): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 44
+[05-Aug-2018 01:13:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'final.final' doesn't exist' in /home/ubuntu/workspace/cst336/final/Program2/index.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/Program2/index.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/final/Program2/index.php(94): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/Program2/index.php on line 44

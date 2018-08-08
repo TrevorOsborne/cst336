@@ -30,13 +30,13 @@ if (empty($record)) {
     header("Location:index.php");
 } else if ($record['lastname'] == 'Admin') {
     $_SESSION['incorrect'] = false;
-    $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
+    $_SESSION['adminName'] = $record['firstname'] . " " . $record['lastname'];
     header("Location:admin/mainAdmin.php"); 
 } else {
     //echo $record['firstName'] . " " . $record['lastName'];
     $_SESSION['incorrect'] = false;
-    $_SESSION['studentName'] = $record['firstName'] . " " . $record['lastName'];
-    header("Location:/finalProject/customer/productServices.php");
+    $_SESSION['studentName'] = $record['firstname'] . " " . $record['lastname'];
+    header("Location:customer/mainpage.php");
 }
 
 ?>

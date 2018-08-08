@@ -51,7 +51,7 @@ if(!isset( $_SESSION['adminName']))
         
         <br />
    
-        <form action="/finalProject/logout.php">
+        <form action="/cst336/finalProject/logout.php">
             <input type="submit" class = 'btn btn-secondary' id = "beginning" value="Logout"/>
         </form>
         
@@ -60,9 +60,6 @@ if(!isset( $_SESSION['adminName']))
         <footer>
             <hr>
             CST 336. 2018&copy;  Zephyr Consultants <br />
-            <strong>Disclaimer:</strong> The information in this webpage is 
-            fictitous. <br />
-                It is used for acedimc purposes only.
         </footer>
         
     </body>
