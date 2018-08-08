@@ -51,7 +51,7 @@ function studentAssignment() {
         
         <br /><br />
 
-        <form action="/cst336/finalProject/logout.php">
+        <form action="/finalProject/logout.php">
             <input type="submit" class = 'btn btn-secondary' id = "beginning" value="Logout"/>
         </form>
         

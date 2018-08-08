@@ -17,7 +17,7 @@
         <br /><br />
         
         <figure id="me">
-                <img src="/cst336/finalProject/img/plane.jpg" alt="Picture of CIA CESSNA" />
+                <img src="/finalProject/img/plane.jpg" alt="Picture of CIA CESSNA" />
         </figure>
             
         <br /><br />
